@@ -35,7 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'faker'
   gem 'database_cleaner'
+  gem 'capybara-webkit'
 end
 
 group :development, :test do
