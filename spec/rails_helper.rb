@@ -26,7 +26,7 @@ require 'rspec/rails'
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
-Capybara.javascript_driver = :webkit
+# Capybara.javascript_driver = :webkit
 
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
